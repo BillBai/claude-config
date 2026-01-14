@@ -1,0 +1,16 @@
+{
+  "name": "claude-config",
+  "version": "1.0.0",
+  "description": "Personal configuration plugin for managing Claude-related skills, commands, and agents",
+  "author": {
+    "name": "BillBai"
+  },
+  "license": "MIT",
+  "keywords": [
+    "config",
+    "skills",
+    "commands",
+    "personal",
+    "configuration"
+  ]
+}
