@@ -1,6 +1,6 @@
-# claude-config
+# billbai-claude-toolkit
 
-A personal Claude Code plugin for managing custom skills, commands, and agents.
+BillBai's personal Claude Code toolkit with enhanced statusline, custom commands, and development utilities.
 
 ## Overview
 
@@ -16,14 +16,14 @@ This plugin provides a centralized repository for your Claude-related configurat
 
 1. Clone this repository:
 ```bash
-git clone <your-repo-url> ~/.claude/plugins/claude-config
+git clone <your-repo-url> ~/.claude/plugins/billbai-claude-toolkit
 ```
 
 2. Add to your Claude Code settings (`.claude/settings.json`):
 ```json
 {
   "plugins": [
-    "claude-config"
+    "billbai-claude-toolkit"
   ]
 }
 ```
@@ -41,13 +41,13 @@ Add the plugin marketplace to your settings:
 
 Then install via Claude Code:
 ```
-/plugin install claude-config
+/plugin install billbai-claude-toolkit
 ```
 
 ## Structure
 
 ```
-claude-config/
+billbai-claude-toolkit/
 ├── .claude-plugin/
 │   └── plugin.json      # Plugin metadata
 ├── bin/                # Utility scripts
@@ -65,12 +65,12 @@ claude-config/
 
 All markdown files in the `commands/` directory are automatically available as slash commands:
 ```
-/claude-config:command-name [arguments]
+/billbai-claude-toolkit:command-name [arguments]
 ```
 
 Example:
 ```
-/claude-config:hello
+/billbai-claude-toolkit:hello
 ```
 
 ### Agents

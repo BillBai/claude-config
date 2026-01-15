@@ -1,16 +1,17 @@
 {
-  "name": "claude-config",
+  "name": "billbai-claude-toolkit",
   "version": "1.0.0",
-  "description": "Personal configuration plugin for managing Claude-related skills, commands, and agents",
+  "description": "BillBai's personal Claude Code toolkit with enhanced statusline, custom commands, and development utilities",
   "author": {
     "name": "BillBai"
   },
   "license": "MIT",
   "keywords": [
-    "config",
+    "toolkit",
+    "statusline",
     "skills",
     "commands",
     "personal",
-    "configuration"
+    "utilities"
   ]
 }
